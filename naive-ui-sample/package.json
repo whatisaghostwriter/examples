@@ -1,0 +1,61 @@
+{
+  "name": "fearless",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A dashboard scaffolding based on Vue.js 3.x & TypeScript created by Vite.",
+  "keywords": [
+    "fearless",
+    "dashboard",
+    "vue",
+    "vuejs",
+    "vue3",
+    "typescript",
+    "vite",
+    "zce"
+  ],
+  "repository": "zce/fearless",
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.vue --fix",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "prepare": "husky install .github/husky"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{ts,vue}": "eslint --fix"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@types/express": "4.17.13",
+    "@vicons/ionicons5": "0.11.0",
+    "@vitejs/plugin-vue": "1.9.2",
+    "@vue/compiler-sfc": "3.2.19",
+    "eslint": "7.32.0",
+    "eslint-config-standard-ts": "20.0.1",
+    "eslint-plugin-vue": "7.18.0",
+    "express": "4.17.1",
+    "husky": "7.0.2",
+    "ky": "0.28.5",
+    "lint-staged": "11.1.2",
+    "naive-ui": "2.19.2",
+    "typescript": "4.4.3",
+    "vite": "2.5.10",
+    "vue": "3.2.19",
+    "vue-router": "4.0.11",
+    "vue-tsc": "0.3.0",
+    "vuex": "4.0.2"
+  }
+}

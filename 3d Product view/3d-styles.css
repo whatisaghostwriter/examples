@@ -1,0 +1,17 @@
+canvas{
+    width:100% !important;
+    height: 100% !important;
+    margin-top: 2rem;
+    transition: opacity 1s ease-in-out !important;
+}
+
+
+.off{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    height: 0 !important;
+    width: 0 !important;
+
+    transition: opacity 1s ease-in-out !important;
+}

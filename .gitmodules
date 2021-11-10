@@ -1,0 +1,33 @@
+[submodule "demo-todo-with-react"]
+	path = appwrite-craco
+	url = https://github.com/appwrite/demo-todo-with-react.git
+[submodule "demo-todo-with-nextjs"]
+	path = appwrite-nextjs
+	url = https://github.com/appwrite/demo-todo-with-nextjs.git
+[submodule "demo-for-vue"]
+	path = appwrite-vuejs
+	url = https://github.com/appwrite/demos-for-vue.git
+[submodule "dawn"]
+	path = dawn
+	url = https://github.com/whatisaghostwriter/dawn.git
+[submodule "next-auth-example"]
+	path = next-auth-example
+	url = https://github.com/nextauthjs/next-auth-example.git
+[submodule "sample-wixe-rest-app"]
+	path = sample-wix-rest-app
+	url = https://github.com/wix-incubator/sample-wix-rest-app.git
+[submodule "tpa-demo-app-react-jsx"]
+	path = tpa-demo-app-react-jsx
+	url = https://github.com/wix/tpa-demo-app-react-jsx.git
+[submodule "vitesse-fireauth-urql"]
+	path = vitesse-fireauth-urql
+	url = https://github.com/wheatjs/vitesse-fireauth-urql.git
+[submodule "blog.tailwindcss.com"]
+	path = next-firebase-examples/blog.tailwindcss.com
+	url = https://github.com/tailwindlabs/blog.tailwindcss.com.git
+[submodule "ghost-utils"]
+	path = next-firebase-examples/ghost-utils
+	url = https://github.com/dingran/ghost-utils.git
+[submodule "next-ssr-firebase"]
+	path = next-firebase-examples/next-ssr-firebase
+	url = https://github.com/colinhacks/next-firebase-ssr.git
